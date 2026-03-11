@@ -17,7 +17,7 @@ class Laser:
         self.rect.bottom = y
 
         #define a velocidade do tiro
-        self.velocidade = 15
+        self.velocidade = 20
 
     def update(self):
         #o eixo Y diminui conforme subimos na tela, então subtraimos a velocidade para o tiro subir

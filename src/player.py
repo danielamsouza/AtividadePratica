@@ -18,7 +18,7 @@ class Jogador: #definindo a Classe que vai criar os objetos da nave
         self.rect.bottom = altura_tela - 20
 
         #velocidade de movimento da nave
-        self.velocidade = 5
+        self.velocidade = 15
 
         #cria uma lista vazia para armazenar os tiros
         self.lasers = []
@@ -26,10 +26,10 @@ class Jogador: #definindo a Classe que vai criar os objetos da nave
         self.pode_atirar = True
         self.tempo_utlimo_disparo = 0
         #tempo de recarga entre os tiros (em ms)
-        self.cooldown = 300
+        self.cooldown = 150
 
     def update(self):
-        #key.get(pressed) capitura as teclas pressionadas
+        #key.get(pressed) captura as teclas pressionadas
         teclas_pressionadas = pygame.key.get_pressed()
 
         #verificando as teclas pressionadas
