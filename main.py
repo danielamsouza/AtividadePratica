@@ -25,7 +25,7 @@ relogio = pygame.time.Clock()
 
 #os.path.join cria o caminho seguro para as imagens dentro da pasta asset
 caminho_fundo_menu = os.path.join("asset", "kenney_space-shooter-redux", "Backgrounds", "purple.png")
-caminho_fundo_jogo = os.path.join("asset", "kenney_space-shooter-redux", "Backgrounds", "darkPurple.png")
+caminho_fundo_jogo = os.path.join("asset", "kenney_space-shooter-redux", "Backgrounds", "black.png")
 
 #pygame.image.load carrega o arquivo de imagem para a memoria
 #.convert() porque o fundo nao tem transparencia, economiza processamento
